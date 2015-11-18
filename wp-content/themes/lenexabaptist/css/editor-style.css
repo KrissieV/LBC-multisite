@@ -1,0 +1,16 @@
+a {text-decoration: none;}
+h1 {font-weight: 300; margin-bottom: 2.5rem; font-size: 250%; text-transform: none;}
+	h1 a {text-transform: lowercase; font-size: 80%;}
+h2 {font-weight: 700; margin-bottom: 2.5rem; font-size: 225%; text-transform: none;}
+h3 {text-transform: uppercase; font-size: 160%; line-height: 100%; font-weight: 700; padding-top: 0; margin-bottom: 2rem;}
+h4 {font-size: 150%; font-weight: 700; text-transform: none; font-style: normal; line-height: 100%; margin-bottom: 1.5rem;} 
+h5 {font-size: 115%; font-weight: 600; text-transform: uppercase;margin-bottom: .5rem;} 
+h6 {font-size: 100%; font-weight: 700; text-transform: none; margin-bottom: .5rem; padding-top: 0;}
+p {}
+
+.button {font-size: 125%; text-transform: uppercase; padding: 1rem 2rem; min-width: 40%; display: block; float: left; margin: 2rem; text-align: center;}
+.button.main_bkgd {color: #ffffff; background-color: #e1e1e1;}
+
+blockquote {color: #666666; border: 1px solid #b3b3b3; padding: 3rem; margin-bottom: 3rem; margin-top: 3rem;}
+blockquote p:last-child {margin-bottom: 0;}
+blockquote.callout {color: #1e1e1e; font-weight: 700; border: 4px solid #b3b3b3; text-align: center; font-size: 120%;}

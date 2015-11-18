@@ -1,0 +1,17 @@
+.button.styleA {outline: 2px solid #1e1e1e;color: #1e1e1e;}
+#masthead {background-color: #1e1e1e;}
+h1 {color: #1e1e1e;}
+h1.block {background-color: #1e1e1e;}
+h2 {color: #1e1e1e;}
+.entry-content h4 {color: #1e1e1e;}
+#curriculum-list a {color: #1e1e1e;}
+
+.event-item .date {background-image: url(../images/icon-calendar-gray.png);}
+
+.callout-boxes .col a,.callout-boxes-mobile .col a {background-color: #1e1e1e;}
+
+.gform_wrapper .button {background-color: #1e1e1e;}
+
+@media screen and (max-width: 640px) {
+	.main-navigation li {background-color: #1e1e1e;}
+}

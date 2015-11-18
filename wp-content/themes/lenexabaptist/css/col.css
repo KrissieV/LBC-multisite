@@ -1,0 +1,37 @@
+.container {
+	width: 92%;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 4% 2% 4% 2%;
+}
+.col:first-child { margin-left: 0; }
+.col:last-child { margin-right: 0; }
+.col.remove-top-marg {margin-top: 0;}
+.col.remove-bot-marg {margin-bottom: 0;}
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
